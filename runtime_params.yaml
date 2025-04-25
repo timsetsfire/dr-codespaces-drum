@@ -1,0 +1,4 @@
+API_TOKEN:
+  credentialType: api_token
+  apiToken: my-api-token
+SOME_PARAM: one

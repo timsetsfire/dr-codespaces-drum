@@ -1,0 +1,16 @@
+name: my unstructured model
+targetType: unstructured
+type: inference
+inferenceModel:
+  targetName: target
+  positiveClassLabel: 0
+  negativeClassLabel: 1
+runtimeParameterDefinitions:
+  - fieldName: API_TOKEN
+    type: credential
+    credentialType: api_token
+    description: API Token
+  - fieldName: SOME_PARAM
+    type: string 
+    description: a dummy string runtime parameter 
+    default: "one"
